@@ -1,0 +1,37 @@
+h3
+{
+  font-size: 53px;
+  color: black;
+}
+
+#Save
+{
+   background-color: lightcoral;
+   height: 50px;
+   width: 140px;
+   font-size: 23px;
+   transition: width 2s, height 2s
+}
+
+#Save:hover
+{
+    width: 180px;
+    height: 70px;
+    background-color: rgb(161, 23, 76);
+    color: white;
+}
+
+canvas
+{
+    animation-name: color;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+
+@keyframes color
+{
+    from {box-shadow: 1px 1px 50px brown;}
+    to   {box-shadow: 1px 1px 50px darksalmon;}
+}
+
